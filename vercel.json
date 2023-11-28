@@ -3,8 +3,7 @@
   "builds": [
       {
           "src": "index.js",
-          "use": "@now/node",
-          "config": { "includeFiles": ["dist/**"] }
+          "use": "@now/node"
       }
   ],
   "routes": [
