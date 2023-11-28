@@ -7,9 +7,9 @@ const rimraf = require('rimraf')
 const plugins = fs.readdirSync('./data')
 
 let finalData = {
-  graviton: {
-    devVersion: '2.1.8',
-    betaVersion: '2.0.92',
+  fm: {
+    devVersion: '2.6.12',
+    betaVersion: '2.6.12',
     stableVersion: '0.0.0',
   },
   list: [],

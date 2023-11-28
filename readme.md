@@ -1,6 +1,6 @@
-# 🎡 Graviton Store's API
+# 🎡 FM Store's API
 
-Hosted in https://graviton-api.herokuapp.com/
+Hosted in https://fm-api.herokuapp.com/
 
 ## 📖 Usage:
 
@@ -37,8 +37,7 @@ description: <DESCRIPTION>
 repository: <LINK-TO-PLUGIN-REPO>
 releases:
  - version: <PLUGIN-VERSION>
-   minTarget: <MINIMUM-GRAVITON-VERSION>
-   target: <GRAVITON-VERSION>
+   minTarget: <MINIMUM-FM-VERSION>
    url: <LINK-TO-PLUGIN-RELEASE-ZIP>
 ```
 ##### About the yaml information above
@@ -47,8 +46,8 @@ releases:
 * To create a release for your plugin:
   1. On your plugin's repository homepage, create a release and upload a `.zip` folder with only functional files for the plugin
   2. Once the release is published, copy the download-url, and release version of the release and paste into the `url`, `version` fields above respectively.
-* `minTarget` will be the minimum version of Graviton(`X.X.X`)
-* `target` will be a more specific target, you can for example use `2` to target Graviton v2.X.X, or `2.1` for v2.1.X
+* `minTarget` will be the minimum version of FM(`X.X.X`)
+* `target` will be a more specific target, you can for example use `2` to target FM v2.X.X, or `2.1` for v2.1.X
 8. Commit changes and create PR
 
 ## 🎎 Contributing

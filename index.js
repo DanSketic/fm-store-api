@@ -14,7 +14,6 @@ const appLimit = createRateLimit({
   },
 })
 
-
 enableWs(app)
 app.use(cors())
 app.use(appLimit)
