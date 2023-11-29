@@ -2,7 +2,7 @@
   "version": 2,
   "installCommand": "npm install",
   "outputDirectory": ".",
-  "framework": "null",
+  "framework": null,
   "devCommand": "nodemon index.js",
   "buildCommand": "npm run gulp",
   "builds": [
