@@ -7,7 +7,7 @@
   "buildCommand": "gulp",
   "builds": [
       {
-          "src": "index.js",
+          "src": "package.json",
           "use": "@vercel/node",
           "config": { "includeFiles": ["data/**/*","dist/**","routes/**","models/**"] }
       }
