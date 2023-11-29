@@ -11,8 +11,7 @@
 		"lint:fix": "eslint --ext .js . --fix",
 		"test": "gulp && npm run mocha",
 		"mocha": "mocha --reporter elexus --exit",
-		"build": "gulp",
-    "postinstall": "gulp default"
+		"build": "gulp"
 	},
 	"keywords": [
 		"api",
