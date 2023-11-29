@@ -5,13 +5,6 @@
   "framework": null,
   "devCommand": "nodemon index.js",
   "buildCommand": "gulp",
-  "builds": [
-      {
-          "src": "package.json",
-          "use": "@vercel/node",
-          "config": { "includeFiles": ["data/**/*","dist/**","routes/**","models/**"] }
-      }
-  ],
   "routes": [
       {
           "src": "/(.*)",
