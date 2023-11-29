@@ -4,7 +4,7 @@
   "outputDirectory": ".",
   "framework": null,
   "devCommand": "nodemon index.js",
-  "buildCommand": "npm run gulp",
+  "buildCommand": "gulp",
   "builds": [
       {
           "src": "index.js",
